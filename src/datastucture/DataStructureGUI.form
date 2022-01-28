@@ -62,7 +62,7 @@
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="BTSTitle.setFont(IronShark);&#xa;BTSTitle.setForeground(new Color(255,208,0));"/>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;src\\res\\Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT,new File(&quot;src\\res\\Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -79,7 +79,7 @@
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="BTSShadow.setFont(IronShark);&#xa;BTSShadow.setForeground(new Color(0,0,0));"/>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;src\\res\\Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT,new File(&quot;src\\res\\Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1506,7 +1506,7 @@
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="BTSTitle1.setFont(IronShark);&#xa;BTSTitle1.setForeground(new Color(255,208,0));"/>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;src\\res\\Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT,new File(&quot;src\\res\\Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1523,7 +1523,7 @@
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="BTSShadow1.setFont(IronShark);&#xa;BTSShadow1.setForeground(new Color(0,0,0));"/>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, this.getClass().getResourceAsStream(&quot;res/Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try{&#xa;    IronShark = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;src\\res\\Iron-Shark.ttf&quot;)).deriveFont(20f);&#xa;    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();&#xa;    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT,new File(&quot;src\\res\\Iron-Shark.ttf&quot;)));&#xa;&#xa;}catch(IOException | FontFormatException e){&#xa;&#xa;}"/>
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
