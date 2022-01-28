@@ -1153,7 +1153,6 @@ public class DataStructureGUI extends javax.swing.JFrame {
         });
         PostfixDash.add(Reset1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 70, 100, 40));
 
-        PostfixTable = new javax.swing.JTable(PostfixModel.getTableModel());
         PostfixScrollPanel.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         PostfixScrollPanel.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         PostfixScrollPanel.setViewportBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -1163,14 +1162,6 @@ public class DataStructureGUI extends javax.swing.JFrame {
         PostfixTable.setBackground(new java.awt.Color(255, 255, 255));
         PostfixTable.setFont(new java.awt.Font("Monospaced", 1, 12)); // NOI18N
         PostfixTable.setForeground(new java.awt.Color(0, 0, 0));
-        PostfixTable.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
         PostfixTable.setColumnSelectionAllowed(true);
         PostfixTable.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         PostfixTable.setGridColor(new java.awt.Color(0, 0, 0));
