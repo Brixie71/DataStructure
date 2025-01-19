@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a7bdae98-f928-4324-b018-a0e9f71ade99)# Data Structure
+# Data Structure
 This was a Finals Requirement for my Course CC4 - Data Structures and Algorithms. Made last November 2021.
 
 # Stack Program
